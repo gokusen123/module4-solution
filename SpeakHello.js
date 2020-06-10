@@ -17,7 +17,7 @@ var speakWord = "Hello";
 // See Lecture 52, part 2
 helloSpeaker.speak = function () {
 //function speak(name) {
-  console.log(speakWord + " " + helloSpeaker.name);
+  console.log(speakWord + " " + helloSpeaker.names);
 }
 
 // STEP 5: Expose the 'helloSpeaker' object to the global scope. Name it
